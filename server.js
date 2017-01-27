@@ -55,7 +55,7 @@ app.post('/todos',function(req,res){
         body.id = todoId;
         todos.push(body);
     }
-//    res.json(body);
+    res.json(body);
 });
 
 app.listen(PORT, function(){
